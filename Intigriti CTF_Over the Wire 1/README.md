@@ -13,7 +13,7 @@ We were given a pcap file. I started analyzing it using Wireshark. Firstly, I tr
 •	A password for user ‘cat’ which is looking like an FTP password (as the protocol also suggests).
 •	A flag.zip file which is being transferred.
 
-So, after seeing the flag.zip file I immediately checked if I can extract the file from PCAP but that didn’t pay off. So I dug further in TCP stream.  
+So, after seeing the flag.zip file I immediately checked if I can extract the file from PCAP (using Exports Objects in Wireshark) but that didn’t pay off. So I dug further in TCP stream.  
 
 ![image](https://github.com/ali-md545/Intigriti-CTF-2023/assets/149575457/e195fa94-2cdf-4f4e-83e1-476f8451a4f8)
 
