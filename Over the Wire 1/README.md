@@ -2,6 +2,9 @@
 Challenge: Over the Wire (Part 1)
 I'm not sure how secure this protocol is but as long as we update the password, I'm sure everything will be fine 😊
 
+![image](https://github.com/ali-md545/Intigriti-CTF-2023/assets/149575457/a6897100-cbb8-4da0-b470-2861fbe06a5c)
+
+
 We were given a pcap file. I started analyzing it using Wireshark. Firstly, I tried to filter out the TCP stream and started analyzing it one by one. At tcp.stream eq 8 I found an FTP connection and data was being transferred.  
  
 2 things to notice here:
